@@ -127,6 +127,7 @@ if __name__ == "__main__":
     all_comments_list = get_all_comments(url)
     save_to_file(all_comments_list,filename)
     end_time = time.time()
+    print(end_time-start_time)
 
         
         
